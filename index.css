@@ -1,20 +1,22 @@
-#nav1{
+#nav1 {
     display: flex;
+    margin: auto;
     height: 40px;
     background-color: #F3F3F3;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 18px;
     align-items: center;
-    
+
 
 
 }
-#nav1 > div{
-    display: flex;
-    justify-content:space-around;
-    width: 300px;
+
+#nav1>img{
+   
+    height: 50px;
 }
-#nav2{
+
+#nav2 {
     display: flex;
     height: 40px;
     justify-content: space-around;
@@ -24,24 +26,297 @@
 
 
 }
-#nav2 > div{
+
+#nav2>div {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 300px;
 }
-#b{
+
+#b {
     display: flex;
     width: 80%;
     margin: auto;
     justify-content: space-evenly;
     margin-top: 45px;
 }
-#abc{
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
+
+#nav2>img{
+   height: 100px;
 }
-#abc>img{
+#bottom_img{
+   
     width: 100%;
 }
+#bottom_img>img{
+    margin-top: 20px;
+
+    width:100%;
+}
+#text_img{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 70px;
     
+}
+#text_img>div{
+    width: 100%;
+    margin-left: 20px;
+   
+}
+#text_img>div>img{
+   
+    width: 100%;
+    
+}
+#large_txt_img{
+    display: flex;
+    margin: auto;
+    width:85%;
+    margin-top: 70px;
+}
+#large_txt_img>img{
+    width: 100%;
+}
+#large_img2{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 30px;
+}
+#large_img2>img{
+   
+    width: 100%;
+}
+#three_img{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    width: 88%;
+}
+
+#three_img>div{
+    display: flex;
+    margin: auto;
+    width: 30%;
+   
+}
+#three_img>div>img{
+    width: 100%;
+}
+#just_landed{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 25px;
+}
+#just_landed>img{
+    width: 100%;
+}
+#family{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 20px;
+}
+#family>div{
+   
+    margin: 10px;
+    width: 15%;
+    text-align: center;
+  
+}
+#family>div>img{
+    width:100%;
+}
+#family #special img{
+height: 328px;
+width: 593px;
+}
+#unique{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 100px;
+}
+#unique>img{
+    width: 100%;
+}
+#lazy_girl{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 30px;
+}
+#lazy_girl>img{
+    width: 100%;
+}
+#fashion{
+    display: flex;
+    margin: auto;
+    width: 87%;
+    margin-top: 20px;
+}
+#fashion>div{
+    margin: auto;
+    width: 31%;
+}
+#fashion>div>img{
+    width:100%;
+}
+#fav_brand{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 60px;
+}
+#fav_brand>img{
+    width: 100%;
+}
+#brand_logo{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 30px;
+    
+}
+#brand_logo>div{
+    width: 100%;
+    margin-left: 20px;
+   
+}
+#brand_logo>div>img{
+   
+    width: 100%;
+    
+}
+#new_block{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 30px;
+}
+#new_block>img{
+    width: 100%;
+}
+#jumbo{
+    display: flex;
+    margin: auto;
+    width: 87%;
+    margin-top: 25px;
+   
+}
+#jumbo>div{
+    display: flex;
+    margin: auto;
+    width: 31%;
+}
+#jumbo>div>img{
+    width: 100%;
+}
+#jumbo2{
+    display: flex;
+    margin: auto;
+    width: 87%;
+    margin-top: 20px;
+   
+}
+#jumbo2>div{
+    display: flex;
+    margin: auto;
+    width: 31%;
+}
+#jumbo2>div>img{
+    width: 100%;
+}
+#sephora_diary{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 25px;
+}
+#sephora_diary>img{
+    width: 100%;
+}
+#jumbo3{
+    display: flex;
+    margin: auto;
+    width: 87%;
+    margin-top: 25px;
+   
+}
+#jumbo3>div{
+    
+    margin: auto;
+    width: 31%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 10px;
+}
+#jumbo3>div>img{
+    
+    width: 100%;
+}
+#btn{
+   display: flex;
+   margin: auto;
+    background-color: #ABC72C;
+    padding: 16px 14px;
+    margin-top: 50px;
+   border-color: white;
+   
+}
+#last_txt{
+    padding-top: 30px;
+    padding-bottom:10px;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    line-height: 10px;
+}
+#last_txt input{
+   background-color: #FFFFFF;
+   padding: 15px 90px;
+  outline-color: white;
+  font-size: 20px;
+ 
+}
+#last_txt button{
+    background-color: #000000;
+    padding: 15px 50px;
+   font-size: 20px;
+   color: white;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 1px;
+  
+ }
+ #footer{
+    margin: 0 0 20px;
+    width: 100%;
+    font-family: Avenir-NextBold;
+    color: #656565;
+   
+    text-align: center;
+    padding-top: 30px;
+    
+ }
+#footer p{
+    line-height: 25px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+#last_link{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    justify-content:space-around ;
+    color: #000000;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+
