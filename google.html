@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Page</title>
+    <style>
+        #main{
+            border: 0px solid red;
+            width: 33%;
+            height: 550px;
+            margin: auto;
+            margin-top: 5%;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        }
+        #main>div:first-child{
+            display: flex;
+            gap: 30px;
+            border: 0px solid black;
+            text-align: center;
+            font-size: 17px;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        }
+        #lower>h2, #lower>p{
+            text-align: center;
+            margin-top: 0px;
+        }
+        #lower>img{
+            margin-top: 5%;
+            width: 10%;
+            padding-left: 45%;
+        }
+        #lower>p{
+            font-size: 18px;
+        }
+        #middle{
+            border: 0px solid black;
+            margin: 45px;
+            font-size: 17px;
+            margin-top: 0px;
+            color: rgb(108, 99, 99);
+        }
+        #middle>input{
+            padding: 15px;
+            width: 92%;
+            font-size: 17px;
+        }
+        #middle>p:nth-child(2){
+            color:#1a73e8 ;
+        }
+        #middle>p:nth-child(3){
+            line-height: 25px;
+            justify-items:left ;
+        }
+        #footer{
+            border: 0px solid black;
+            display: flex;
+            justify-content: space-between;
+        }   
+        #footer>button{
+            padding: 10px 30px 30px 30px;
+            height: 30px;
+            margin-top: 10px;
+            color: white;
+            background-color: #1a73e8;
+            border: 0px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #footer>p{
+            color: #1a73e8;
+        }
+        #main_footer{
+            margin-top: 30px;
+            border: 0px solid black;
+            height: 100px;
+            width:33%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            color: rgb(84, 78, 78);
+        }
+        #main_footer>div:first-child{
+            margin-top: 15px;
+        }
+        #main_footer>div:last-child{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div id="main">
+    <div>
+        <img style="width: 4%;
+        margin: 10px 0px 15px 20px;"
+         src="https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png" alt="logo">
+        <p>Sign in with Google</p>
+    </div>
+    <div id="lower">
+        <img src="https://static.nnnow.com/client/assets/images/favicon.ico" alt="logo">
+        <h2>Sign in</h2>
+        <p>to continue to <b style="color:#1a73e8">SEPHORA</b></p>
+        <div id="middle">
+            <input type="text" placeholder="Email or phone" id="email">
+            <p>Forget email?</p>
+            <p>To continue, Google will share your name, email address, language preference and profile picture with SEPHORA. Before using this app, you can review SEPHORA’s <a style="color:#1a73e8;">privacy policy</a> and <a style="color:#1a73e8">Terms of Service</a>.</p>
+            <div id="footer">
+                <p>Create account</p>
+                <button>Next</button>
+        </div>
+        </div>
+    </div>
+   </div>
+   <div id="main_footer">
+    <div>
+        <div>English (United Kingdom)</div>
+    </div>
+    <div>
+        <p>Help</p>
+        <p>Privacy</p>
+        <p>Terms</p>
+    </div>
+   </div>
+
+</body>
+</html>
