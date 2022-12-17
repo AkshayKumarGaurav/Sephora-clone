@@ -1,1 +1,1 @@
-I am making a NNNOW app.
+I am making a SEPHORA app.
