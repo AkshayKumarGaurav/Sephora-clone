@@ -18,4 +18,4 @@ Along with that, in order to store user data and products data I also used Local
 
 All the image and icon links have been taken from the main website ( https://sephora.nnnow.com/ )
 
-### Netlify Deployed link:-[https://darling-druid-78ef30.netlify.app/index.html]
+### -[]Netlify Deployed link:-[https://darling-druid-78ef30.netlify.app/index.html]
