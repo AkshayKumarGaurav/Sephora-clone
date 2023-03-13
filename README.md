@@ -1,4 +1,4 @@
-## Sephora (Clone)
+# Sephora (Clone)
 
 Project-1: make a clone of https://sephora.nnnow.com/ site
 
@@ -12,10 +12,10 @@ In this project we have used the following technologies:
 - CSS
 - JavaScript
 
-Along with that, in order to store user data and products data we also used LocalStorage (aka browser storage).
+Along with that, in order to store user data and products data I also used LocalStorage (aka browser storage).
 
 ## Libraries Used
 
 All the image and icon links have been taken from the main website ( https://sephora.nnnow.com/ )
 
-Netlify Deployed link:-[https://darling-druid-78ef30.netlify.app/index.html]
+### Netlify Deployed link:-[https://darling-druid-78ef30.netlify.app/index.html]
