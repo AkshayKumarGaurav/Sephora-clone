@@ -1,4 +1,4 @@
-Sephora (Clone)
+## Sephora (Clone)
 
 Project-1: make a clone of https://sephora.nnnow.com/ site
 
